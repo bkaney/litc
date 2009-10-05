@@ -1,0 +1,11 @@
+HTTP/1.0 200 OK
+Connection: close
+Content-Type: application/octet-stream
+Accept-Ranges: bytes
+ETag: "1836735518"
+Last-Modified: Thu, 26 Mar 2009 13:54:53 GMT
+Content-Length: 57
+Date: Mon, 05 Oct 2009 02:20:47 GMT
+Server: EC2ws
+
+{ "roles": [ "app", "search", "job" ] }

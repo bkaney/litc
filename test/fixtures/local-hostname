@@ -1,0 +1,11 @@
+HTTP/1.0 200 OK
+Connection: close
+Content-Type: text/plain
+Accept-Ranges: bytes
+ETag: "-1921289200"
+Last-Modified: Thu, 26 Mar 2009 13:54:53 GMT
+Content-Length: 29
+Date: Mon, 05 Oct 2009 02:15:20 GMT
+Server: EC2ws
+
+ip-10-0-0-1.ec2.internal

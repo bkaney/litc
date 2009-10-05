@@ -1,0 +1,11 @@
+HTTP/1.0 200 OK
+Connection: close
+Content-Type: text/plain
+Accept-Ranges: bytes
+ETag: "-1951666365"
+Last-Modified: Sat, 16 May 2009 04:39:03 GMT
+Content-Length: 39
+Date: Mon, 05 Oct 2009 02:17:28 GMT
+Server: EC2ws
+
+ec2-67-1-1-1.compute-1.amazonaws.com

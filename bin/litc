@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+ 
+$:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
+ 
+help = <<HELP
+Simple command to obtain instance metadata:
+
+  litc [item]
+  litc ami-id
+  litc user-data
+
+HELP
+
+if ARGV.first =~ /help|\?|h/ or ARGV.empty?
+  puts help
+  exit 0
+end
+
+
+require 'litc'
+include Litc
+
+puts Litc.get(ARGV.first.to_sym)

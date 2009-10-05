@@ -1,0 +1,11 @@
+HTTP/1.0 200 OK
+Connection: close
+Content-Type: text/plain
+Accept-Ranges: bytes
+ETag: "1031425046"
+Last-Modified: Thu, 26 Mar 2009 13:54:53 GMT
+Content-Length: 12
+Date: Mon, 05 Oct 2009 02:08:05 GMT
+Server: EC2ws
+
+ami-1d1aaa11
