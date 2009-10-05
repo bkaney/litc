@@ -9,15 +9,23 @@ Simple command to obtain instance metadata:
   litc ami-id
   litc user-data
 
+  litc --help       : This help message
+  litc --list       : list of all available items
+
 HELP
 
-if ARGV.first =~ /help|\?|h/ or ARGV.empty?
+if ARGV.first =~ /\-help|\?/ or ARGV.empty?
   puts help
   exit 0
 end
 
-
 require 'litc'
 include Litc
 
-puts Litc.get(ARGV.first.to_s)
+if ARGV.first =~ /-list/
+  puts "Listing all available instance metadata items:"
+  Litc::ITEMS.each{|i| puts "  #{i}" }
+  exit 0
+end
+
+puts Litc.get(ARGV.first.to_s) || "ERROR: Invalid Item `#{ARGV.first}'"
