@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "litc"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A tiny ruby module for Amazon EC2 intance metadata}
+    gem.description = %Q{A tiny ruby module for Amazon EC2 intance metadata}
     gem.email = "brian@vermonster.com"
     gem.homepage = "http://github.com/bkaney/litc"
     gem.authors = ["Brian Kaney"]
