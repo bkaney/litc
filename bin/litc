@@ -20,4 +20,4 @@ end
 require 'litc'
 include Litc
 
-puts Litc.get(ARGV.first.to_sym)
+puts Litc.get(ARGV.first.to_s)
