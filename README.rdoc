@@ -1,6 +1,10 @@
 = LITC
 
-A tiny ruby module for Amazon EC2 intance metadata
+A tiny ruby module for Amazon EC2 intance metadata.  
+
+It is probably important to note this really doesn't do anything unless 
+it is run on an Amazon EC2 instance where metadata is available over the 
+link-local address http://169.254.169.254
 
 == Usage
 
