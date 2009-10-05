@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Brian Kaney"]
   s.date = %q{2009-10-05}
   s.default_executable = %q{litc}
-  s.description = %q{A tiny ruby module for Amazon EC2 intance metadata}
+  s.description = %q{TODO: longer description of your gem}
   s.email = %q{brian@vermonster.com}
   s.executables = ["litc"]
   s.extra_rdoc_files = [
@@ -56,7 +56,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
-  s.summary = %q{A tiny ruby module for Amazon EC2 intance metadata}
+  s.summary = %q{TODO: one-line summary of your gem}
   s.test_files = [
     "test/helper.rb",
      "test/test_litc.rb"
