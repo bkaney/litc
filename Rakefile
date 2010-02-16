@@ -13,6 +13,8 @@ begin
     gem.add_development_dependency "thoughtbot-shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
+  
+  Jeweler::GemcutterTasks.new
 
   task :test => :check_dependencies
 rescue LoadError
